@@ -1,0 +1,53 @@
+.activity{
+    border: solid 1px gainsboro;
+    display: flex;
+    min-width: 300px;
+    margin: 0;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: left;
+    cursor: grab;
+    transition: transform .3s;
+}
+
+.activity:hover{
+    transform: scale(1.2);
+}
+
+.activity:active{
+    border: solid 1px black;
+}
+
+.one{
+    background-color: #9de24f;
+}
+
+.two{
+    background-color: #D7F3B8;
+}
+
+
+.three{
+    background-color: #FFFFB2;
+}
+
+.four{
+    background-color: #FFFF66;
+}
+
+.five{
+    background-color: #ffdeaa;
+    
+}
+
+.six{
+    background-color: #FFBD55;
+}
+
+.seven{
+    background-color: #FFB2B2;
+}
+
+.eight{
+    background-color: #FF6666;
+}
