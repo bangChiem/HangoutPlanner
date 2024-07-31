@@ -1,0 +1,54 @@
+.panel{
+    margin: 0 auto 0 auto;
+    width: 300px;
+    padding: 0;
+    max-height: 0;
+    border: none;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
+
+.panel-open{
+    display: none;
+}
+
+.panel-closed{
+    margin: 0px auto 15px auto;
+    height: 30px;
+    width: 300px;
+    background-color: white;
+}
+
+.panels-container{
+    height: 600px;
+    padding-top: 15px;
+    width: 360px;
+    border-radius:  0px 0px 15px 15px;
+}
+
+.one-panel{
+    background-color: #A9DEF9;
+    border-top: 15px solid #19B1FF;
+}
+
+.two-panel{
+    background-color: #D0F4DE;
+    border-top: 15px solid #39BB6B;
+}
+
+.three-panel{
+    background-color: #FCF6BD;
+    border-top: 15px solid #FFE700;
+}
+
+.open{
+    margin: 0 auto 15px auto;
+    width: 300px;
+    max-height: 380px;
+    height: 380px;
+    
+}
+
+.hidden{
+    display: none;
+}
